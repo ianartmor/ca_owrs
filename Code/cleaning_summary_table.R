@@ -26,8 +26,8 @@ unique(summary_table$bill_frequency)
 
 
 #la 09/30/2019 updated service charge based on comparison of OWRS raw file and summary_table.csv entry
-##for bi-monthly: Alameda County Water District 03/2018, Alhambra  City Of, Bakman Water Company, Garden Grove City, Westminister  City Of, 
-  #- but with Pomona  City of and Sweetwater Springs Water District - not sure what is going on there, 
+##for bi-monthly: Alameda County Water District 03/2018, Alhambra  City Of, Bakman Water Company, Garden Grove City, Westminister  City Of, Sweetwater Springs Water District 
+  #- but with Pomona  City of and Hayward City of - not sure what is going on there, 
 ##for quarterly: South Tahoe Public Utility District checks out fine
 ##for annual:Glenbrook Water Cooperative - not found in OWRS in github, not verified
 summary_table %<>%
